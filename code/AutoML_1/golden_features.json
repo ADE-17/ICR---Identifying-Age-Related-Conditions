@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "DU",
+            "feature2": "DF",
+            "operation": "ratio",
+            "score": 0.4009099031
+        },
+        {
+            "feature1": "DF",
+            "feature2": "DU",
+            "operation": "ratio",
+            "score": 0.4009099031
+        },
+        {
+            "feature1": "DU",
+            "feature2": "GH",
+            "operation": "ratio",
+            "score": 0.4049683253
+        },
+        {
+            "feature1": "FD ",
+            "feature2": "AM",
+            "operation": "ratio",
+            "score": 0.431239018
+        },
+        {
+            "feature1": "DL",
+            "feature2": "FL",
+            "operation": "diff",
+            "score": 0.4493318365
+        },
+        {
+            "feature1": "EB",
+            "feature2": "CR",
+            "operation": "ratio",
+            "score": 0.4520360787
+        },
+        {
+            "feature1": "CR",
+            "feature2": "EB",
+            "operation": "ratio",
+            "score": 0.4520360787
+        },
+        {
+            "feature1": "AZ",
+            "feature2": "DF",
+            "operation": "ratio",
+            "score": 0.4534445582
+        },
+        {
+            "feature1": "CB",
+            "feature2": "CF",
+            "operation": "diff",
+            "score": 0.4535437875
+        },
+        {
+            "feature1": "FR",
+            "feature2": "GB",
+            "operation": "ratio",
+            "score": 0.4557013948
+        }
+    ],
+    "new_columns": [
+        "DU_ratio_DF",
+        "DF_ratio_DU",
+        "DU_ratio_GH",
+        "FD _ratio_AM",
+        "DL_diff_FL",
+        "EB_ratio_CR",
+        "CR_ratio_EB",
+        "AZ_ratio_DF",
+        "CB_diff_CF",
+        "FR_ratio_GB"
+    ],
+    "ml_task": "binary_classification"
+}
